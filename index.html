@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ofertas de Peças de Computador</title>
+    <title>Periféricos de Informática</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
 
         .container {
@@ -39,35 +58,51 @@
             color: #27ae60;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                width: 90%;
-            }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Periféricos de Informática</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mouses.html">Mouses</a>
+        <a href="teclados.html">Teclados</a>
+        <a href="monitores.html">Monitores</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
     <div class="container">
+        <h2>Bem-vindo à nossa loja de periféricos de informática!</h2>
+        <p>Confira abaixo algumas das ofertas em destaque:</p>
         <div class="card">
-            <h2>Placa de Vídeo GeForce RTX 3080</h2>
-            <p>Marca: NVIDIA</p>
-            <p>Memória: 10GB GDDR6X</p>
-            <p>Preço: <span class="price">R$ 4.999,99</span></p>
+            <h2>Mouse Gamer Logitech G502 Hero</h2>
+            <p>12.000 DPI, 11 Botões Programáveis</p>
+            <p>Preço: <span class="price">R$ 349,90</span></p>
         </div>
 
         <div class="card">
-            <h2>Processador AMD Ryzen 9 5900X</h2>
-            <p>Velocidade: 3.7GHz (4.8GHz Turbo)</p>
-            <p>Núcleos: 12</p>
-            <p>Preço: <span class="price">R$ 2.499,99</span></p>
+            <h2>Teclado Mecânico Corsair K70 RGB</h2>
+            <p>Cherry MX Brown, Iluminação RGB</p>
+            <p>Preço: <span class="price">R$ 799,90</span></p>
         </div>
 
         <div class="card">
-            <h2>SSD NVMe Samsung 970 EVO Plus</h2>
-            <p>Capacidade: 1TB</p>
-            <p>Velocidade de Leitura: 3500MB/s</p>
-            <p>Preço: <span class="price">R$ 899,99</span></p>
+            <h2>Monitor Gamer Samsung Odyssey G7</h2>
+            <p>27", 240Hz, Curvo, QLED</p>
+            <p>Preço: <span class="price">R$ 3.499,90</span></p>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Periféricos de Informática. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
