@@ -1,0 +1,75 @@
+# yp3D
+testes
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas de Peças de Computador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        .card p {
+            margin: 5px 0;
+        }
+
+        .card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Placa de Vídeo GeForce RTX 3080</h2>
+            <p>Marca: NVIDIA</p>
+            <p>Memória: 10GB GDDR6X</p>
+            <p>Preço: <span class="price">R$ 4.999,99</span></p>
+        </div>
+
+        <div class="card">
+            <h2>Processador AMD Ryzen 9 5900X</h2>
+            <p>Velocidade: 3.7GHz (4.8GHz Turbo)</p>
+            <p>Núcleos: 12</p>
+            <p>Preço: <span class="price">R$ 2.499,99</span></p>
+        </div>
+
+        <div class="card">
+            <h2>SSD NVMe Samsung 970 EVO Plus</h2>
+            <p>Capacidade: 1TB</p>
+            <p>Velocidade de Leitura: 3500MB/s</p>
+            <p>Preço: <span class="price">R$ 899,99</span></p>
+        </div>
+    </div>
+</body>
+</html>
